@@ -1,0 +1,33 @@
+.hostel-info-container {
+    padding: 20px;
+}
+
+.hostel-info-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hostel-info-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.hostel-info-container th, .hostel-info-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.hostel-info-container th {
+    background-color: #f2f2f2;
+}
+
+.hostel-info-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.hostel-info-container a:hover {
+    text-decoration: underline;
+}

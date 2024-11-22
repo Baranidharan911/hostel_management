@@ -1,0 +1,96 @@
+.room-change-tracking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-change-tracking-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.room-change-tracking-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.room-change-tracking-container input,
+.room-change-tracking-container select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.room-change-tracking-container button {
+    padding: 10px;
+    width: 48%;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.room-change-tracking-container button:hover {
+    background-color: #334ff0;
+}
+
+.room-change-tracking-container .reset-button {
+    background-color: #ff4d4d;
+}
+
+.room-change-tracking-container .reset-button:hover {
+    background-color: #e60000;
+}
+
+.room-change-tracking-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.room-change-tracking-container th, 
+.room-change-tracking-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-button {
+    padding: 10px;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.page-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.page-button:hover:not(:disabled) {
+    background-color: #334ff0;
+}

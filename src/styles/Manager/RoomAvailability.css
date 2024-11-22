@@ -1,0 +1,163 @@
+.room-availability-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-availability-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.room-availability-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.room-availability-container th, 
+.room-availability-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.room-availability-container label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.room-availability-container input {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.room-availability-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.room-availability-container .submit-button {
+    padding: 10px 20px;
+    width: 48%;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.room-availability-container .submit-button:hover {
+    background-color: #334ff0;
+}
+
+.room-availability-container .reset-button {
+    padding: 10px 20px;
+    width: 48%;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.room-availability-container .reset-button:hover {
+    background-color: #e60000;
+}
+
+.room-availability-container .action-button {
+    padding: 5px 10px;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+.room-availability-container .action-button:hover {
+    background-color: #334ff0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-button {
+    padding: 10px;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.page-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.page-button:hover:not(:disabled) {
+    background-color: #334ff0;
+}
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 8px 10px 8px 40px; /* Adjusted left padding to make room for the icon */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 760px; /* Adjusted to provide proper spacing between the icon and the input text */
+    top: 50%;
+    transform: translateY(-50%); /* Center the icon vertically */
+    font-size: 20px; /* Set the icon size for better visibility */
+    color: #2575fc;
+    pointer-events: none; /* Ensure the icon doesn't interfere with input interactions */
+}

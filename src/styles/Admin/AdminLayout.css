@@ -1,0 +1,47 @@
+.admin-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+}
+
+.sidebar .side a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+
+.sidebar .side a:hover {
+    color: #ccc; /* Add hover effect */
+}
+
+.sidebar .side a.active {
+    font-weight: bold; /* Make the active link bold */
+    color: #000000;/* Ensure active link color is white */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}

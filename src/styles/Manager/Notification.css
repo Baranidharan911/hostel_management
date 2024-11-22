@@ -1,0 +1,83 @@
+.notification-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notification-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.notification-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333;
+}
+
+.notification-container input,
+.notification-container select,
+.notification-container textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.notification {
+    width: 90%;
+}
+
+.notification-s {
+    width: 94%;
+}
+
+.notification-t {
+    width: 90%;
+}
+
+.notification-container .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.notification-container .reset-button {
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Red color for reset button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.notification-container .reset-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+}
+
+.notification-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #2575fc; /* Blue color for send button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.notification-container button[type="submit"]:hover {
+    background-color: #334ff0; /* Darker blue on hover */
+}

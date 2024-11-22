@@ -1,0 +1,27 @@
+.manager-dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #78aded;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar div {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}

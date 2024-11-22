@@ -1,0 +1,124 @@
+.hostel-list-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto; /* Allows horizontal scrolling on smaller screens */
+}
+
+.hostel-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.hostel-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hostel-table th, .hostel-table td {
+    padding: 7px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.hostel-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hostel-table input {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.action-icon {
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 20px;
+    color: #2575fc;
+    transition: color 0.3s;
+}
+
+.action-icon:hover {
+    color: #334ff0;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hostel-table, .hostel-table thead, .hostel-table tbody, .hostel-table th, .hostel-table td, .hostel-table tr {
+        display: block;
+    }
+
+    .hostel-table thead tr {
+        display: none;
+    }
+
+    .hostel-table tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .hostel-table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hostel-table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: 45%;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .hostel-table input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .action-icon {
+        font-size: 24px;
+    }
+
+    .filter-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,162 @@
+.hostel-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px; /* Add space between the left and right sections */
+}
+
+.left-section, .right-section {
+    width: 48%; /* Ensures the sections are evenly split */
+}
+
+.add-hostel-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.add-hostel-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-hostel-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-hostel-container label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.add-hostel-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-hostel-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-button {
+    background-color: #f44336;
+}
+
+.reset-button:hover {
+    background-color: #d32f2f;
+}
+
+.add-button {
+    background-color: #2575fc;
+}
+
+.add-button:hover {
+    background-color: #334ff0;
+}
+
+.hostel-cards-container {
+    height: 750px;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.search-bar-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 18px;
+}
+
+.hostel-search-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Padding adjusted to accommodate the search icon */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card-actions {
+    display: flex;
+    gap: 10px; /* Space between edit and delete buttons */
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.edit-button, .delete-button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the pagination icons */
+    margin-top: 20px;
+}
+
+.pagination button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #2575fc;
+}
